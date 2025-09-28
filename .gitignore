@@ -1,0 +1,5 @@
+/secrets
+/iot-home-e67d6-firebase-adminsdk-fbsvc-1c874ddec7.json
+.env*
+node_modules
+dist

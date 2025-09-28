@@ -1,0 +1,14 @@
+{
+    "rules": {
+        "devices": {
+            ".read": "auth != null && (auth.token.email == 'krzysiek@skyman.pl' || auth.token.email == 'superlajra@gmail.com')",
+            ".write": true
+        },
+        "subscriptions": {
+            ".read": true,
+            ".write": "auth != null && (auth.token.email == 'krzysiek@skyman.pl' || auth.token.email == 'superlajra@gmail.com')",
+        },
+        ".read": false,
+        ".write": false
+    }
+}
